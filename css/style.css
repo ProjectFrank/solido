@@ -1,0 +1,1032 @@
+/* line 41, /Users/frankwang/src/solido/source/css/grid.scss */
+body {
+  width: 100%;
+  *zoom: 1; }
+  /* line 26, /Users/frankwang/src/solido/source/css/grid.scss */
+  body:before, body:after {
+    content: "";
+    display: table; }
+  /* line 31, /Users/frankwang/src/solido/source/css/grid.scss */
+  body:after {
+    clear: both; }
+/* font-family: 'Open Sans', 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;	 */
+/* font-family: 'Montserrat', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif; */
+/* line 10, /Users/frankwang/src/solido/source/css/style.scss */
+* {
+  box-sizing: border-box; }
+
+/* line 14, /Users/frankwang/src/solido/source/css/style.scss */
+html {
+  font-size: 62.5%;
+  max-width: 100vw; }
+
+/* line 19, /Users/frankwang/src/solido/source/css/style.scss */
+body {
+  font-family: "Open Sans";
+  max-width: 100vw; }
+
+/* line 24, /Users/frankwang/src/solido/source/css/style.scss */
+section {
+  background: #f7f7f7;
+  position: relative;
+  z-index: 1;
+  overflow: hidden; }
+
+/* line 31, /Users/frankwang/src/solido/source/css/style.scss */
+img {
+  max-width: 100%;
+  height: auto; }
+
+/* line 36, /Users/frankwang/src/solido/source/css/style.scss */
+p {
+  font-size: 1.7rem;
+  font-family: "Open Sans";
+  font-weight: 300; }
+
+/* line 42, /Users/frankwang/src/solido/source/css/style.scss */
+h2 {
+  position: relative;
+  color: #050505;
+  padding-top: 8.75%;
+  margin: 0;
+  position: relative;
+  font-size: 3.848rem;
+  font-family: "Open Sans";
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.15em;
+  line-height: 1;
+  padding-bottom: 35px; }
+
+/* line 58, /Users/frankwang/src/solido/source/css/style.scss */
+h4 {
+  margin: 0;
+  font-weight: 300;
+  font-size: 2.8rem;
+  text-align: center; }
+
+/* line 65, /Users/frankwang/src/solido/source/css/style.scss */
+strong {
+  font-weight: 700; }
+
+/* line 69, /Users/frankwang/src/solido/source/css/style.scss */
+.semibold {
+  font-weight: 600; }
+
+/* line 73, /Users/frankwang/src/solido/source/css/style.scss */
+.super-h4 {
+  margin-bottom: 20px;
+  font-family: Montserrat;
+  font-size: 1.5rem;
+  color: #e1e2e2;
+  text-transform: uppercase;
+  text-align: center; }
+
+/* line 82, /Users/frankwang/src/solido/source/css/style.scss */
+.super-h3 {
+  font-family: Montserrat;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: #8d8d8d;
+  letter-spacing: 0.2em;
+  text-align: center; }
+
+/* line 91, /Users/frankwang/src/solido/source/css/style.scss */
+h3 {
+  position: relative;
+  color: #fff;
+  font-size: 3.5rem;
+  font-weight: 300;
+  padding-bottom: 30px;
+  line-height: 1;
+  text-align: center; }
+
+/* line 101, /Users/frankwang/src/solido/source/css/style.scss */
+a {
+  font-weight: 400;
+  text-decoration: none;
+  color: #45e4fa; }
+
+/* line 107, /Users/frankwang/src/solido/source/css/style.scss */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 95%; }
+
+/* line 113, /Users/frankwang/src/solido/source/css/style.scss */
+.bottom-half {
+  position: relative;
+  background: #fff;
+  padding-top: 32.5px; }
+
+/* line 119, /Users/frankwang/src/solido/source/css/style.scss */
+.bottom-half:before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  left: calc(50% - 32.5px);
+  width: 0;
+  height: 0;
+  border-left: 32.5px solid transparent;
+  border-right: 32.5px solid transparent;
+  border-top: 32.5px solid #f7f7f7; }
+
+/* Header rules */
+/* line 133, /Users/frankwang/src/solido/source/css/style.scss */
+header {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  z-index: 0;
+  background-image: url("../img/topbanner.jpg");
+  background-size: cover;
+  text-align: center;
+  color: #fff; }
+  @media (max-height: 560px) {
+    /* line 143, /Users/frankwang/src/solido/source/css/style.scss */
+    header div.sub-h1 {
+      display: none; } }
+  @media (max-width: 800px) and (max-height: 400px) {
+    /* line 148, /Users/frankwang/src/solido/source/css/style.scss */
+    header h1 {
+      font-size: 6rem;
+      margin-bottom: 30px; }
+    /* line 152, /Users/frankwang/src/solido/source/css/style.scss */
+    header .buy {
+      margin-top: 0; } }
+
+/* line 158, /Users/frankwang/src/solido/source/css/style.scss */
+p.super-h1 {
+  margin: 0 auto;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 2.6rem;
+  letter-spacing: 0.15em;
+  line-height: 1;
+  text-align: center; }
+
+/* line 169, /Users/frankwang/src/solido/source/css/style.scss */
+h1 {
+  position: relative;
+  margin: 30px 0 0 0;
+  font-family: Montserrat;
+  text-transform: uppercase;
+  font-size: 10.5rem;
+  font-weight: 400;
+  letter-spacing: 0.07em;
+  line-height: 1;
+  padding-bottom: 30px;
+  margin-bottom: 35px; }
+  @media (max-width: 500px) {
+    /* line 169, /Users/frankwang/src/solido/source/css/style.scss */
+    h1 {
+      font-size: 8rem; } }
+  @media (max-width: 400px) {
+    /* line 169, /Users/frankwang/src/solido/source/css/style.scss */
+    h1 {
+      font-size: 6rem; } }
+
+/* line 188, /Users/frankwang/src/solido/source/css/style.scss */
+h1:after,
+.blueline:after {
+  content: "";
+  display: block;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  background: #4cddf3; }
+
+/* line 198, /Users/frankwang/src/solido/source/css/style.scss */
+.blueline:after {
+  left: calc(50% - 47px);
+  width: 94px; }
+
+/* line 203, /Users/frankwang/src/solido/source/css/style.scss */
+h1:after {
+  left: calc(50% - 27.5px);
+  width: 55px; }
+
+/* line 208, /Users/frankwang/src/solido/source/css/style.scss */
+div.sub-h1 {
+  width: 60%;
+  margin: 4% auto;
+  text-align: center;
+  line-height: 2; }
+  /* line 213, /Users/frankwang/src/solido/source/css/style.scss */
+  div.sub-h1 p {
+    margin: 0;
+    font-weight: 400; }
+  @media (max-width: 850px) {
+    /* line 208, /Users/frankwang/src/solido/source/css/style.scss */
+    div.sub-h1 {
+      width: 90%; } }
+
+/* line 222, /Users/frankwang/src/solido/source/css/style.scss */
+.buy {
+  display: inline-block;
+  margin-top: 3.33%;
+  border: 2px solid #f7f7f7;
+  padding: 17px 30px 17px 43px;
+  -webkit-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em; }
+  /* line 234, /Users/frankwang/src/solido/source/css/style.scss */
+  .buy .fa-play {
+    padding-left: 1em; }
+
+/* line 239, /Users/frankwang/src/solido/source/css/style.scss */
+.buy:hover {
+  border: 2px solid #4bddf4; }
+
+/* Nav rules */
+/* line 245, /Users/frankwang/src/solido/source/css/style.scss */
+nav {
+  width: 100%;
+  padding: 25px 0;
+  background: #fff;
+  position: relative;
+  z-index: 999; }
+  /* line 251, /Users/frankwang/src/solido/source/css/style.scss */
+  nav img {
+    float: left;
+    margin-left: 3.5%; }
+  /* line 255, /Users/frankwang/src/solido/source/css/style.scss */
+  nav ul {
+    width: calc(96.5% - 124px);
+    text-align: right;
+    float: right;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+  /* line 263, /Users/frankwang/src/solido/source/css/style.scss */
+  nav li {
+    display: inline-block;
+    margin-right: 6.1%;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    line-height: 20px;
+    cursor: pointer; }
+  /* line 272, /Users/frankwang/src/solido/source/css/style.scss */
+  nav li:hover {
+    color: #4cddf3; }
+  /* line 275, /Users/frankwang/src/solido/source/css/style.scss */
+  nav a {
+    color: inherit; }
+  /* line 278, /Users/frankwang/src/solido/source/css/style.scss */
+  nav .fa-bars {
+    display: none;
+    font-size: 2rem; }
+    /* line 281, /Users/frankwang/src/solido/source/css/style.scss */
+    nav .fa-bars:hover {
+      color: #4cddf3;
+      cursor: pointer; }
+  @media (max-width: 800px) {
+    /* line 287, /Users/frankwang/src/solido/source/css/style.scss */
+    nav .fa-bars {
+      display: block;
+      float: right;
+      margin-right: 6.1%; }
+    /* line 292, /Users/frankwang/src/solido/source/css/style.scss */
+    nav ul {
+      position: absolute;
+      top: 100%;
+      right: 0;
+      overflow: hidden;
+      visibility: hidden;
+      opacity: 0;
+      width: 0; }
+    /* line 301, /Users/frankwang/src/solido/source/css/style.scss */
+    nav li {
+      display: block;
+      margin-right: 20px; }
+    /* line 305, /Users/frankwang/src/solido/source/css/style.scss */
+    nav.show ul {
+      visibility: visible;
+      opacity: 1;
+      width: 120px; }
+    /* line 310, /Users/frankwang/src/solido/source/css/style.scss */
+    nav.show .fa-bars {
+      color: #4cddf3; } }
+
+/* Featured */
+/* line 318, /Users/frankwang/src/solido/source/css/style.scss */
+section.featured .col-2 > img {
+  margin-top: 5%;
+  width: 100%; }
+/* line 322, /Users/frankwang/src/solido/source/css/style.scss */
+section.featured h2 {
+  margin-bottom: 3.75%; }
+/* line 325, /Users/frankwang/src/solido/source/css/style.scss */
+section.featured .sub-h1 {
+  color: #333; }
+/* line 328, /Users/frankwang/src/solido/source/css/style.scss */
+section.featured .bottom-half {
+  padding-bottom: 100px;
+  text-align: center; }
+/* line 332, /Users/frankwang/src/solido/source/css/style.scss */
+section.featured .break {
+  position: relative;
+  background: url("../img/midBanner.jpg");
+  background-size: cover;
+  padding-top: 12.5%;
+  text-align: center; }
+  /* line 338, /Users/frankwang/src/solido/source/css/style.scss */
+  section.featured .break img {
+    width: 90%;
+    left: 0;
+    margin: 0 auto; }
+
+/* line 347, /Users/frankwang/src/solido/source/css/style.scss */
+.control {
+  margin: 5.8% auto;
+  width: 40%;
+  text-align: center; }
+  @media (max-width: 800px) {
+    /* line 347, /Users/frankwang/src/solido/source/css/style.scss */
+    .control {
+      width: 60%; } }
+  @media (max-width: 600px) {
+    /* line 347, /Users/frankwang/src/solido/source/css/style.scss */
+    .control {
+      width: 80%; } }
+  @media (max-width: 400px) {
+    /* line 347, /Users/frankwang/src/solido/source/css/style.scss */
+    .control {
+      width: 95%; } }
+
+/* line 362, /Users/frankwang/src/solido/source/css/style.scss */
+.goportfolio {
+  margin-top: 4.5px;
+  display: inline-block;
+  background: #d6d6d6;
+  padding: 18px 25px;
+  border-radius: 25px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1;
+  letter-spacing: 0.08em;
+  color: #f7f7f7;
+  text-transform: uppercase; }
+  /* line 376, /Users/frankwang/src/solido/source/css/style.scss */
+  .goportfolio:hover {
+    background: #4cddf3; }
+  @media (max-width: 500px) {
+    /* line 362, /Users/frankwang/src/solido/source/css/style.scss */
+    .goportfolio {
+      margin-top: 0; } }
+
+/* line 384, /Users/frankwang/src/solido/source/css/style.scss */
+.left-arrow, .right-arrow {
+  height: 60px;
+  width: 33px;
+  position: relative; }
+  @media (max-width: 500px) {
+    /* line 384, /Users/frankwang/src/solido/source/css/style.scss */
+    .left-arrow, .right-arrow {
+      display: none; } }
+
+/* line 393, /Users/frankwang/src/solido/source/css/style.scss */
+.right-arrow {
+  float: right; }
+  /* line 395, /Users/frankwang/src/solido/source/css/style.scss */
+  .right-arrow:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-left: 30px solid #d6d6d6;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+  /* line 407, /Users/frankwang/src/solido/source/css/style.scss */
+  .right-arrow:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 3px;
+    width: 0;
+    height: 0;
+    border-left: 30px solid #f7f7f7;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent; }
+  /* line 418, /Users/frankwang/src/solido/source/css/style.scss */
+  .right-arrow:hover:before {
+    border-left-color: #4cddf3; }
+
+/* line 423, /Users/frankwang/src/solido/source/css/style.scss */
+.left-arrow {
+  float: left; }
+  /* line 425, /Users/frankwang/src/solido/source/css/style.scss */
+  .left-arrow:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-right: 30px solid #d6d6d6;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+  /* line 438, /Users/frankwang/src/solido/source/css/style.scss */
+  .left-arrow:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 3px;
+    width: 0;
+    height: 0;
+    border-right: 30px solid #f7f7f7;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent; }
+  /* line 449, /Users/frankwang/src/solido/source/css/style.scss */
+  .left-arrow:hover:before {
+    border-right-color: #4cddf3; }
+
+/* line 454, /Users/frankwang/src/solido/source/css/style.scss */
+.left-arrow-small, .right-arrow-small {
+  margin-top: 10px;
+  height: 30px;
+  width: 17px;
+  position: relative;
+  display: none; }
+  @media (max-width: 500px) {
+    /* line 454, /Users/frankwang/src/solido/source/css/style.scss */
+    .left-arrow-small, .right-arrow-small {
+      display: block; } }
+
+/* line 465, /Users/frankwang/src/solido/source/css/style.scss */
+.right-arrow-small {
+  float: right; }
+  /* line 467, /Users/frankwang/src/solido/source/css/style.scss */
+  .right-arrow-small:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-left: 15px solid #d6d6d6;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+  /* line 479, /Users/frankwang/src/solido/source/css/style.scss */
+  .right-arrow-small:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 2px;
+    width: 0;
+    height: 0;
+    border-left: 15px solid #f7f7f7;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent; }
+  /* line 490, /Users/frankwang/src/solido/source/css/style.scss */
+  .right-arrow-small:hover:before {
+    border-left-color: #4cddf3; }
+
+/* line 495, /Users/frankwang/src/solido/source/css/style.scss */
+.left-arrow-small {
+  float: left; }
+  /* line 497, /Users/frankwang/src/solido/source/css/style.scss */
+  .left-arrow-small:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-right: 15px solid #d6d6d6;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+  /* line 510, /Users/frankwang/src/solido/source/css/style.scss */
+  .left-arrow-small:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 2px;
+    width: 0;
+    height: 0;
+    border-right: 15px solid #f7f7f7;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent; }
+  /* line 521, /Users/frankwang/src/solido/source/css/style.scss */
+  .left-arrow-small:hover:before {
+    border-right-color: #4cddf3; }
+
+/* line 526, /Users/frankwang/src/solido/source/css/style.scss */
+.col-2 {
+  width: 50%;
+  padding: 4%;
+  float: left; }
+  @media (max-width: 800px) {
+    /* line 526, /Users/frankwang/src/solido/source/css/style.scss */
+    .col-2 {
+      width: 100%; } }
+
+/* line 535, /Users/frankwang/src/solido/source/css/style.scss */
+.about-solido {
+  font-weight: 400;
+  font-size: 1.5rem;
+  text-align: left; }
+
+/* line 541, /Users/frankwang/src/solido/source/css/style.scss */
+section.team {
+  text-align: center; }
+  /* line 543, /Users/frankwang/src/solido/source/css/style.scss */
+  section.team h2 {
+    margin-bottom: 4%; }
+  /* line 546, /Users/frankwang/src/solido/source/css/style.scss */
+  section.team .sub-h1 {
+    color: #8b8b8b; }
+  /* line 549, /Users/frankwang/src/solido/source/css/style.scss */
+  section.team > p {
+    margin: 4% 0;
+    font-weight: 400;
+    color: #777; }
+  /* line 554, /Users/frankwang/src/solido/source/css/style.scss */
+  section.team > .container {
+    padding-bottom: 4.6%; }
+  /* line 557, /Users/frankwang/src/solido/source/css/style.scss */
+  section.team .bottom-half {
+    padding-top: 6.25%; }
+    /* line 561, /Users/frankwang/src/solido/source/css/style.scss */
+    section.team .bottom-half .col-4 {
+      padding-top: 5.4%;
+      padding-bottom: 7.5%; }
+  /* line 566, /Users/frankwang/src/solido/source/css/style.scss */
+  section.team .break img {
+    width: 100%; }
+
+/* line 572, /Users/frankwang/src/solido/source/css/style.scss */
+.statsnumbers, .statswords {
+  line-height: 1; }
+
+/* line 576, /Users/frankwang/src/solido/source/css/style.scss */
+.statsnumbers {
+  font-size: 10rem;
+  color: #474747;
+  margin-top: 25px;
+  margin-bottom: 0; }
+  @media (max-width: 500px) {
+    /* line 576, /Users/frankwang/src/solido/source/css/style.scss */
+    .statsnumbers {
+      font-size: 6rem; } }
+
+/* line 586, /Users/frankwang/src/solido/source/css/style.scss */
+.statswords {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #909090;
+  margin-top: 10px;
+  margin-bottom: 0; }
+
+/* line 594, /Users/frankwang/src/solido/source/css/style.scss */
+.col-4 {
+  position: relative;
+  margin: 0 1.875%;
+  width: 21.25%;
+  float: left;
+  text-align: center; }
+  @media (max-width: 900px) {
+    /* line 594, /Users/frankwang/src/solido/source/css/style.scss */
+    .col-4 {
+      width: 46.25%;
+      margin-bottom: 3.75%; }
+      /* line 603, /Users/frankwang/src/solido/source/css/style.scss */
+      .col-4:nth-child(3) {
+        clear: both; } }
+
+/* line 609, /Users/frankwang/src/solido/source/css/style.scss */
+.hidden-email {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  padding-top: 27%;
+  visibility: hidden;
+  opacity: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  text-transform: uppercase;
+  color: #f7f7f7;
+  font-size: 2rem; }
+  /* line 624, /Users/frankwang/src/solido/source/css/style.scss */
+  .hidden-email .fa {
+    color: #4ed8ed;
+    font-size: 3rem;
+    display: block;
+    text-align: center;
+    padding-top: 27; }
+  @media (max-width: 500px) {
+    /* line 609, /Users/frankwang/src/solido/source/css/style.scss */
+    .hidden-email {
+      font-size: 1.5rem; }
+      /* line 633, /Users/frankwang/src/solido/source/css/style.scss */
+      .hidden-email .fa {
+        font-size: 2rem; } }
+
+/* line 640, /Users/frankwang/src/solido/source/css/style.scss */
+section.team > .container > .col-4:hover .hidden-email {
+  opacity: 1;
+  visibility: visible; }
+/* line 644, /Users/frankwang/src/solido/source/css/style.scss */
+section.team > .container > .col-4:hover .name-role {
+  background: #4ed8ed; }
+  /* line 646, /Users/frankwang/src/solido/source/css/style.scss */
+  section.team > .container > .col-4:hover .name-role .fa {
+    color: #fff; }
+/* line 650, /Users/frankwang/src/solido/source/css/style.scss */
+section.team > .container > .col-4:hover p:last-of-type {
+  color: #fff; }
+  /* line 652, /Users/frankwang/src/solido/source/css/style.scss */
+  section.team > .container > .col-4:hover p:last-of-type:after {
+    background: #fff; }
+
+/* line 658, /Users/frankwang/src/solido/source/css/style.scss */
+.dp {
+  width: 100%; }
+
+/* line 662, /Users/frankwang/src/solido/source/css/style.scss */
+.name-role {
+  position: relative;
+  z-index: 10;
+  background: #fff;
+  padding-top: 35px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease; }
+  /* line 668, /Users/frankwang/src/solido/source/css/style.scss */
+  .name-role p {
+    font-weight: 400;
+    margin: 0;
+    text-transform: uppercase; }
+    /* line 672, /Users/frankwang/src/solido/source/css/style.scss */
+    .name-role p:first-of-type {
+      font-size: 1.8rem; }
+    /* line 675, /Users/frankwang/src/solido/source/css/style.scss */
+    .name-role p:last-of-type {
+      font-size: 1.4rem;
+      position: relative;
+      padding-bottom: 30px; }
+      /* line 679, /Users/frankwang/src/solido/source/css/style.scss */
+      .name-role p:last-of-type:after {
+        content: "";
+        display: block;
+        height: 2px;
+        position: absolute;
+        bottom: 0;
+        background: #4cddf3;
+        width: 40px;
+        left: calc(50% - 20px); }
+  /* line 691, /Users/frankwang/src/solido/source/css/style.scss */
+  .name-role .social {
+    display: block;
+    padding: 25px 0; }
+    /* line 694, /Users/frankwang/src/solido/source/css/style.scss */
+    .name-role .social .fa {
+      padding: 0 6%;
+      font-size: 3rem; }
+
+/* line 703, /Users/frankwang/src/solido/source/css/style.scss */
+section.services h2 {
+  margin-bottom: 12.5%; }
+/* line 706, /Users/frankwang/src/solido/source/css/style.scss */
+section.services .col-2:first-of-type h4 {
+  margin-bottom: 11%; }
+/* line 709, /Users/frankwang/src/solido/source/css/style.scss */
+section.services .col-2:nth-of-type(2) h4 {
+  margin-bottom: 14%; }
+/* line 713, /Users/frankwang/src/solido/source/css/style.scss */
+section.services .col-2 li div:first-of-type {
+  float: left;
+  width: 20%;
+  margin-right: 4%; }
+/* line 718, /Users/frankwang/src/solido/source/css/style.scss */
+section.services .col-2 li div:last-of-type {
+  float: left;
+  width: 76%; }
+/* line 724, /Users/frankwang/src/solido/source/css/style.scss */
+section.services ul {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+  /* line 728, /Users/frankwang/src/solido/source/css/style.scss */
+  section.services ul img {
+    float: left; }
+  /* line 731, /Users/frankwang/src/solido/source/css/style.scss */
+  section.services ul p {
+    margin: 0;
+    color: #9fa0a0;
+    line-height: 2;
+    font-weight: 400;
+    font-size: 1.4rem; }
+  /* line 738, /Users/frankwang/src/solido/source/css/style.scss */
+  section.services ul p:last-of-type {
+    color: #000; }
+/* line 742, /Users/frankwang/src/solido/source/css/style.scss */
+section.services li {
+  padding: 5% 0; }
+/* line 745, /Users/frankwang/src/solido/source/css/style.scss */
+section.services li:first-child {
+  padding-top: 0;
+  border-bottom: 1px solid #f4f4f4; }
+/* line 749, /Users/frankwang/src/solido/source/css/style.scss */
+section.services .container:nth-of-type(2) {
+  font-size: 0;
+  text-align: center; }
+@media (max-width: 600px) {
+  /* line 754, /Users/frankwang/src/solido/source/css/style.scss */
+  section.services .col-5 p {
+    font-size: 1.4rem; } }
+
+/* line 760, /Users/frankwang/src/solido/source/css/style.scss */
+.col-5 {
+  display: inline-block;
+  width: 20%;
+  text-align: center;
+  padding-bottom: 8%; }
+  /* line 765, /Users/frankwang/src/solido/source/css/style.scss */
+  .col-5:nth-of-type(4) .circle img {
+    padding-top: 27%; }
+  @media (max-width: 500px) {
+    /* line 760, /Users/frankwang/src/solido/source/css/style.scss */
+    .col-5 {
+      width: 33.33%; } }
+
+/* line 773, /Users/frankwang/src/solido/source/css/style.scss */
+.circle {
+  width: 43.75%;
+  margin: 0 auto;
+  border-radius: 50%;
+  text-align: center;
+  background: #4cddf3;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+  /* line 780, /Users/frankwang/src/solido/source/css/style.scss */
+  .circle img {
+    padding-top: 31%;
+    width: 38%; }
+  /* line 784, /Users/frankwang/src/solido/source/css/style.scss */
+  .circle:hover {
+    background: #d5d5d5; }
+
+/* line 789, /Users/frankwang/src/solido/source/css/style.scss */
+.fullbar {
+  width: 100%;
+  background: #f6f6f6;
+  color: #fff;
+  margin: 6% 0; }
+  /* line 794, /Users/frankwang/src/solido/source/css/style.scss */
+  .fullbar:first-child {
+    margin-top: 0; }
+  /* line 797, /Users/frankwang/src/solido/source/css/style.scss */
+  .fullbar:first-child .bar {
+    width: 90%; }
+  /* line 800, /Users/frankwang/src/solido/source/css/style.scss */
+  .fullbar:nth-child(2) .bar {
+    width: 70%; }
+  /* line 803, /Users/frankwang/src/solido/source/css/style.scss */
+  .fullbar:nth-child(3) .bar {
+    width: 80%; }
+  /* line 806, /Users/frankwang/src/solido/source/css/style.scss */
+  .fullbar:nth-child(4) .bar {
+    width: 60%; }
+
+/* line 811, /Users/frankwang/src/solido/source/css/style.scss */
+.bar {
+  background: #4ad8ed;
+  padding: 2% 3.33%;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  line-height: 1; }
+
+/* line 824, /Users/frankwang/src/solido/source/css/style.scss */
+section.portfolio .sub-h1 {
+  color: #999; }
+/* line 827, /Users/frankwang/src/solido/source/css/style.scss */
+section.portfolio ul {
+  margin: 0 auto 6.25% auto;
+  width: 50%;
+  text-align: center;
+  padding: 0;
+  list-style: none;
+  font-size: 0; }
+  @media (max-width: 700px) {
+    /* line 827, /Users/frankwang/src/solido/source/css/style.scss */
+    section.portfolio ul {
+      width: 95%; } }
+/* line 839, /Users/frankwang/src/solido/source/css/style.scss */
+section.portfolio li {
+  display: inline-block;
+  width: 18%;
+  margin: 1% 1%;
+  padding: 1% 0;
+  border-radius: 3px;
+  background: #fff;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #999; }
+  /* line 849, /Users/frankwang/src/solido/source/css/style.scss */
+  section.portfolio li:hover {
+    background: #4cddf3;
+    color: #fff; }
+  @media (max-width: 900px) {
+    /* line 839, /Users/frankwang/src/solido/source/css/style.scss */
+    section.portfolio li {
+      width: 30%;
+      margin: 1.66% 1.66%; } }
+/* line 858, /Users/frankwang/src/solido/source/css/style.scss */
+section.portfolio h3 {
+  margin-top: 0;
+  color: #000;
+  text-transform: uppercase; }
+/* line 864, /Users/frankwang/src/solido/source/css/style.scss */
+section.portfolio .container > p:last-of-type {
+  line-height: 1.5;
+  margin-top: 2.5%; }
+/* line 869, /Users/frankwang/src/solido/source/css/style.scss */
+section.portfolio .container > p:nth-of-type(2) {
+  line-height: 1.5; }
+
+/* line 875, /Users/frankwang/src/solido/source/css/style.scss */
+.checkers {
+  width: 20%;
+  float: left; }
+
+/* line 880, /Users/frankwang/src/solido/source/css/style.scss */
+.checkers:nth-child(odd) {
+  background: #b3b3b3; }
+
+/* line 884, /Users/frankwang/src/solido/source/css/style.scss */
+.checkers:nth-child(even) {
+  background: #969696; }
+
+/* line 888, /Users/frankwang/src/solido/source/css/style.scss */
+.x {
+  position: relative;
+  margin: 15.4% auto;
+  width: 38px;
+  height: 38px;
+  background: #d4d4d4; }
+  /* line 894, /Users/frankwang/src/solido/source/css/style.scss */
+  .x:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 1px;
+    border-top: 18px solid #f7f7f7;
+    border-left: 18px solid transparent;
+    border-right: 18px solid transparent; }
+  /* line 903, /Users/frankwang/src/solido/source/css/style.scss */
+  .x:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 1px;
+    border-bottom: 18px solid #f7f7f7;
+    border-left: 18px solid transparent;
+    border-right: 18px solid transparent; }
+
+/* line 914, /Users/frankwang/src/solido/source/css/style.scss */
+.inner-x {
+  width: 100%;
+  height: 100%; }
+  /* line 917, /Users/frankwang/src/solido/source/css/style.scss */
+  .inner-x:before {
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: 0;
+    border-top: 18px solid transparent;
+    border-left: 18px solid #f7f7f7;
+    border-bottom: 18px solid transparent; }
+  /* line 926, /Users/frankwang/src/solido/source/css/style.scss */
+  .inner-x:before {
+    content: "";
+    position: absolute;
+    top: 1px;
+    right: 0;
+    border-top: 18px solid transparent;
+    border-right: 18px solid #f7f7f7;
+    border-bottom: 18px solid transparent; }
+
+/* line 938, /Users/frankwang/src/solido/source/css/style.scss */
+section.contact {
+  background: #fff; }
+  /* line 940, /Users/frankwang/src/solido/source/css/style.scss */
+  section.contact .sub-h1 {
+    color: #a5a5a5; }
+  /* line 943, /Users/frankwang/src/solido/source/css/style.scss */
+  section.contact > img {
+    width: 100%; }
+  /* line 947, /Users/frankwang/src/solido/source/css/style.scss */
+  section.contact .container:nth-of-type(2) p {
+    margin: 0;
+    color: #afbbc1;
+    font-weight: 600;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    text-align: left; }
+  /* line 956, /Users/frankwang/src/solido/source/css/style.scss */
+  section.contact h4 {
+    margin: 0;
+    text-align: left;
+    color: #667279; }
+
+/* line 963, /Users/frankwang/src/solido/source/css/style.scss */
+.col-3 {
+  width: 33.33%;
+  float: left; }
+  @media (max-width: 900px) {
+    /* line 963, /Users/frankwang/src/solido/source/css/style.scss */
+    .col-3 {
+      width: 50%;
+      padding-left: 15%; }
+      /* line 969, /Users/frankwang/src/solido/source/css/style.scss */
+      .col-3:last-child {
+        clear: both;
+        float: none;
+        padding-top: 5.4%;
+        padding-left: 0;
+        margin: 0 auto; } }
+  /* line 977, /Users/frankwang/src/solido/source/css/style.scss */
+  .col-3:last-child {
+    padding-bottom: 5.4%; }
+
+/* line 982, /Users/frankwang/src/solido/source/css/style.scss */
+dl {
+  margin: 10% 0 0 0;
+  font-size: 1.2rem; }
+  /* line 985, /Users/frankwang/src/solido/source/css/style.scss */
+  dl .fa {
+    display: inline-block;
+    width: 2.5rem; }
+
+/* line 991, /Users/frankwang/src/solido/source/css/style.scss */
+dt, dd {
+  float: left;
+  margin: 0; }
+
+/* line 996, /Users/frankwang/src/solido/source/css/style.scss */
+dt {
+  display: block;
+  font-weight: 600;
+  width: 30%; }
+
+/* line 1002, /Users/frankwang/src/solido/source/css/style.scss */
+dd {
+  color: #afbbc1; }
+
+/* line 1006, /Users/frankwang/src/solido/source/css/style.scss */
+.clear {
+  clear: both; }
+
+/* line 1010, /Users/frankwang/src/solido/source/css/style.scss */
+input, textarea {
+  background: #f7f7f7;
+  margin: 5px 0;
+  outline: none;
+  border: none;
+  width: 100%;
+  padding: 2.5% 5%;
+  font-size: 1.2rem;
+  font-family: "Open Sans";
+  line-height: 1; }
+
+/* line 1022, /Users/frankwang/src/solido/source/css/style.scss */
+textarea {
+  height: 10rem; }
+
+/* line 1026, /Users/frankwang/src/solido/source/css/style.scss */
+input:focus, textarea:focus {
+  outline: 1px solid #4ad8ed; }
+
+/* line 1030, /Users/frankwang/src/solido/source/css/style.scss */
+input[type=submit]:hover {
+  color: #fff;
+  background: #4ad8ed; }
